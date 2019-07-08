@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *Must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>RevaGram</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img\core-img\favicon.ico">
+	<link rel="stylesheet" href="css\style.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <div id="preloader"> 
+        <div class="spinner">
+            <img src="img\core-img\revaspinner.png">
+        </div>
+    </div>
+
+
+    <header class="header-area">
+
+        <!-- Top Header Area -->
+        <div class="top-header-area d-flex justify-content-between align-items-center">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <a href="#"><span>Phone:</span> +44 300 303 0266</a>
+                <a href="#"><span>Email:</span> revaeventsapp@gmail.com</a>
+            </div>
+            <!-- Follow Us -->
+            <div class="follow-us">
+                <span>Follow us</span>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <!-- Navbar Area -->
+        <div class="clever-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="cleverNav">
+
+                    <!-- Logo -->
+                    <a class="nav-brand" href="index.html"><img src="img\core-img\logo.png" alt="">RevaGram</a>
+                    
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"></span>
+							             </div>
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Sections</a>
+                                    <ul class="dropdown">         
+                                        <li><a href="cse.html">CSE Events</a></li>
+                                        <li><a href="ece.html">ECE Events</a></li>
+                                        <li><a href="eee.html">EEE Events</a></li>
+                                        <li><a href="me.html">ME Events</a></li>
+                                        <li><a href="ce.html">CE Events</a></li>
+                                        <li><a href="arch.html">Architectural Events</a></li>
+                                        <li><a href="others.html">Other Events</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="index.html">Create Event</a></li>
+                                <li><a href="dashboard.html">Dashboard</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+
+
+                            <!-- Search Button -->
+                            <div class="search-area">
+                                <form action="#" method="post">
+                                    <input type="search" name="search" id="search" placeholder="Search">
+                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+
+                            <!-- Register / Login -->
+                            <div class="register-login-area">
+                                <a href="login\signup.html" class="btn">Register</a>
+                                <a href="login\login.html" class="btn active">Login</a>
+                            </div>
+
+                        </div>
+                        <!-- Nav End -->
+					</div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+	<div class="center-container">
+		<div class="main">
+			<h1 class="w3layouts_head" style="color: orange;">Event Creation Form</h1>
+				<div class="w3layouts_main_grid">
+					<form action="#" method="post" class="w3_form_post">
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Your Name </label>
+								<input type="text" name="name" placeholder="Your Name" required="">
+							</span>
+						</div>
+						<div class="content-w3ls">
+							<div class="form-w3ls">
+								<div class="content-wthree2">
+									<div class="grid-w3layouts1">
+										<div class="w3-agile1">
+											<label>Who you're?</label>
+											<ul>
+												<li>
+													<input type="radio" id="a-option" name="selector1">
+													<label for="a-option">Student</label>
+													<div class="check"></div>
+												</li>
+												<li>
+													<input type="radio" id="b-option" name="selector1">
+													<label for="b-option">Faculty</label>
+													<div class="check"><div class="inside"></div></div>
+												</li>
+											</ul>
+										</div>	
+									</div>
+									<div class="w3_agileits_main_grid w3l_main_grid">
+										<span class="agileits_grid">
+											<label>Your SRN </label>
+											<input type="text" name="srn" placeholder="Your SRN" required="">
+										</span>
+									</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Your Email </label>
+								<input type="text" name="mail" placeholder="Your Email" required="">
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Phone Number </label>
+								<input type="text" name="pno" placeholder="Phone Number" required="">
+								</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Event Title</label>
+								<input type="text" name="ename" placeholder="Title Name" required="">
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Select Image</label>
+								<input type="file" name="eimg" multiple required=""><br>
+								<div class="w3_main_grid">
+									<div class="w3_main_grid_right">
+										<input type="submit" value="Submit" style="width:50px; height:25px; font-size: 10px; margin-left:30%; text-align: center; margin-top: -10%;">
+									</div>
+								</div>
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid desc">
+							<span class="agileits_grid" >
+								<label>Describe your event </label>
+								<textarea rows="5" class="form-control form-control-line" placeholder="Describe your event with minimum of 100 words" minlength="200"></textarea>
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid desc">
+							<span class="agileits_grid">
+								<label>Event Rules</label>
+									<textarea rows="5" class="form-control form-control-line" placeholder="Event Rules"></textarea>
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid desc">
+							<span class="agileits_grid">
+								<label>Venue </label>
+								<input type="text" name="eplace" placeholder="Event Place" required="">
+							</span>
+						</div>
+
+						<div class="agileits_w3layouts_main_grid w3ls_main_grid">
+							<span class="agileinfo_grid">
+								<label>Date / Time </label>
+								<div class="agileits_w3layouts_main_gridl">
+									<input class="date" id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
+								</div>
+								<div class="agileits_w3layouts_main_gridr">
+									<input type="time" name="Time" placeholder=" " required="">
+								</div>
+									<div class="clear"> </div>
+							</span>
+						</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					<div class="w3_main_grid">
+						<div class="w3_main_grid_right">
+							<input type="submit" value="Submit" style="margin-left: 40%;">
+						</div>
+					</div>
+				</form>
+			</div>
+		<!-- Calendar -->
+			<link rel="stylesheet" href="css/jquery-ui.css" />
+				<script src="js\jquery-ui.js"></script>
+					<script>
+						$(function() {
+							$( "#datepicker" ).datepicker();
+						});
+					</script>
+	
+			
+		</div>
+	</div>
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js\jquery\jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js\bootstrap\popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js\bootstrap\bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js\plugins\plugins.js"></script>
+    <!-- Active js -->
+    <script src="js\active.js"></script>
+</body>
+
+</html>
